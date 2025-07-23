@@ -2,4 +2,4 @@
 
 import os
 who = os.getenv("WHO", "Action")
-print(f"Hello, {who} from GitHub Actions!")
+print(f"Hello, {who} from GitHub Actions! This is a merge test.")
