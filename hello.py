@@ -1,3 +1,5 @@
 #!/usr/bin/env python3
 
-print("Hello World! from GitHub Actions")
+import os
+who = os.getenv("WHO", "Action")
+print(f"Hello, {who} from GitHub Actions!")
